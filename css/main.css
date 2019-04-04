@@ -1,0 +1,42 @@
+#filters {
+    margin-top: 20px;
+}
+#filters a.btn-light{
+	border-radius: 0;
+	position: relative;
+}
+#filters a:hover, .btn.btn-light:focus{
+    box-shadow: none;
+    border-bottom: #34c1e7 solid 3px;
+}
+#filters a .badge {
+	background-color: #34c1e7;
+	color: white;
+	border-radius: 50%;
+	opacity: 0;
+	transition: 500ms;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	margin-left: -15px;
+	padding: 7px;
+	line-height: 15px;
+    width: 30px;
+}
+#filters a:hover .badge{
+	opacity: 1;
+	top: -16px;
+}
+#pagination a {
+    transition: 500ms;
+    background-color: white;
+    color: #34c1e7;
+    line-height: 30px;
+    width: 40px;
+    margin: 5px;
+}
+#pagination a:hover, #pagination a:focus{
+	background-color:#34c1e7;
+	color: white;
+	box-shadow: none!important;
+}
