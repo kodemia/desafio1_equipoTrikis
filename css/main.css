@@ -1,3 +1,10 @@
+.title{
+		padding: 33px 10px;
+}
+.title .breadcrumbs {
+	padding-top: 20px;
+	font-size: 12px;
+}
 #filters {
     margin-top: 20px;
 }
@@ -39,4 +46,8 @@
 	background-color:#34c1e7;
 	color: white;
 	box-shadow: none!important;
+}
+.btn-light:hover {
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
 }
