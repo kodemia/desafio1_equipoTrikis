@@ -1,0 +1,28 @@
+.container-fluid {
+    padding: 0;
+    margin-left: 166px;
+    margin-right: 166px;
+}
+
+.navbar-brand {
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.navbar-collapse {
+    margin-left: 40px;
+}
+
+.btn-success {
+    margin-right: 29px;
+    margin-left: 50px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer;
+    color: blue;
+}
