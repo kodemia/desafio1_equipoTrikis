@@ -1,0 +1,28 @@
+.item-article{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    padding: 10px;
+}
+
+.item-article img{
+    width: 400;
+    height: 300;
+    max-width: 100%;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+.item-content-data {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item-content-data span{
+    color:#191e23;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.item-article img:hover{   
+    opacity: 0.5;
+}
