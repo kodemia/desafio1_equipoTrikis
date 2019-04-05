@@ -1,9 +1,58 @@
+#preheader {
+    background: #082B49;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#preheaderRow {
+    height: 50px;
+    color: #D0D1D2;
+    font-size: 13px;
+}
+
+#loginSocialMedia {
+    color: #47c9ec;
+} 
+
+.socialMediaHeader btn-link {
+    margin-left: 11px;
+}
+
+header .container-fluid {
+    padding: 0;
+}
+
+header .navbar-brand {
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+header .navbar-collapse {
+    margin-left: 40px;
+}
+
+header .btn-success {
+    margin-right: 29px;
+    margin-left: 50px;
+}
+
+header .dropdown-toggle::after {
+    display: none;
+}
+
+header .dropdown-toggle:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/*lloraras y lloraras*/
+
 .title{
 		padding: 33px 10px;
 }
 .title .breadcrumbs {
 	padding-top: 20px;
-	font-size: 12px;git
+	font-size: 12px;
 }
 #filters {
     margin-top: 20px;
@@ -49,7 +98,8 @@
 }
 .btn-light:hover {
 	background-color: #f8f9fa;
-	border-color: #f8f9fa;
+    border-color: #f8f9fa; }
+    
 .item-article{
     width: 100%;
     height: 100%;
@@ -79,3 +129,9 @@
     -webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
     filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8)
 }
+
+footer .container {
+    background-color: #082B49;
+    text-align: center;
+}
+
