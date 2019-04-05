@@ -1,0 +1,16 @@
+#preheader {
+    background: #082B49;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+
+#preheaderRow {
+    height: 50px;
+    color: #D0D1D2;
+    font-size: 13px;
+}
+
+#loginSocialMedia {
+    color: #47c9ec;
+} 
